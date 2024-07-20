@@ -4,7 +4,6 @@ public class NPCMovement : MonoBehaviour
 {
     public float speed = 2.0f; // Speed of the NPC movement
     public float distance = 5.0f; // Distance to move in one direction before turning
-
     private Vector3 startPosition;
     private int currentDirection = 0; // 0: forward, 1: right, 2: backward, 3: left
     private Vector3 nextPosition;
