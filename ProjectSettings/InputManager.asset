@@ -505,8 +505,8 @@ InputManager:
     m_Name: VerticalController
     descriptiveName: 
     descriptiveNegativeName: 
-    negativeButton: left
-    positiveButton: right
+    negativeButton: down
+    positiveButton: up
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
@@ -515,6 +515,6 @@ InputManager:
     snap: 0
     invert: 0
     type: 2
-    axis: 1
+    axis: 0
     joyNum: 0
   m_UsePhysicalKeys: 1
