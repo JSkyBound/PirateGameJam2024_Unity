@@ -32,7 +32,6 @@ public class NPCProximity : MonoBehaviour
             if (IsPlayerInLineOfSight())
             {
                 npcRenderer.material.color = detectionColor;
-                Debug.Log("PLAYER DETECTED");
             }
             else
             {
